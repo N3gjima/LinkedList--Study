@@ -12,7 +12,7 @@ class LinkedList:
     if self.head:
       while(pointer.next):
         pointer = pointer.next
-    self.size = self.size + 1
+      self.size = self.size + 1
     
     
     else:
