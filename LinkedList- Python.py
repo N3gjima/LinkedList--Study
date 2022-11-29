@@ -41,3 +41,12 @@ class LinkedList:
 			pointer.data = elem
 		else:
 			raise IndexError("List index error out of range")
+	def index (self,elem):
+		pointer = self.head
+		i = 0
+		while(pointer):
+			if pointer.data == elem:
+				return
+			pointer = pointer.nextr
+			i = i + 1 
+		raise ValueError ("{} is not in list".format(elem))
