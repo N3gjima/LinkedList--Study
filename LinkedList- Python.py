@@ -47,6 +47,6 @@ class LinkedList:
 		while(pointer):
 			if pointer.data == elem:
 				return
-			pointer = pointer.nextr
+			pointer = pointer.next
 			i = i + 1 
 		raise ValueError ("{} is not in list".format(elem))
