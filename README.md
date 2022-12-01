@@ -89,5 +89,8 @@ Como a lista encadeada não é uma lista sequencial precisaremos adaptar uma bus
     while (pointer):
       if pointer.data == elem:
         return
+      pointer = pointer.next
+      i = i + 1
+    raise ValueError ("{} is not in list".format(elem))
         
         
