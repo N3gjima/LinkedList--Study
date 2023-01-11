@@ -1,0 +1,3 @@
+Está é apenas uma documentação do código sobre árvore binária, o código foi feito pôr:
+Estou apenas seguindo os passos dessa pessoa.
+E agora como finalização do estudo irei escrever o que entendi sobre o tema e também ensinarei como fazer sua própria árvore binária.
